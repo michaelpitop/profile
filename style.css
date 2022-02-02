@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: rgb(126, 126, 190);
+  line-height: 20px;
+  margin: 40px;
+  background-image: url("https://www.worldatlas.com/r/w960-q80/upload/6b/29/c7/shutterstock-97499225.jpg");
+  background-size:cover;
+}
+
+h1, h2 {
+  color: rgb(7, 7, 94);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p{
+  color: rgb(42, 49, 114);
+}
+
+a:link {
+  color:rgb(184, 181, 25);
+  text-decoration: royalblue;
+}
+
+a:hover {
+  color: rgb(134, 46, 46);
+}
+
+.container {
+  text-align: center;
+  width: fit-content;
+  align-content: flex-end;
+  height: fit-content;
+  margin: auto;
+}
+
+.card {
+  background: transparent;
+  border-radius: 13px;
+  padding: 10px
+}
+
+#follow {
+  padding: auto;
+  margin-top: 10px;
+  border: 1px solid grey;
+
+}
+
+.img-circle {
+  border-radius: 35px;
+}
+
+.fa-github-square {
+  width: auto;
+  padding: auto;
+  font-size: 190%;
+}
+
+.btn-gradient {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(#167FFB, #0F60C4);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(#9fa4aa, #0F67DA);
+  color: white;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
